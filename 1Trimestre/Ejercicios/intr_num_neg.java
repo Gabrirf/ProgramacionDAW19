@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class intr_num_neg{
+public class intr_num_neg{		//	Meto X numeros y digo si hay alguno negativo
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class intr_num_neg{
 		while (pasos < vecesBucle){
 			pasos++;		//voy sumando pasos hasta que sea igual que la veces que le he metido para que pare
 
-			System.out.print("Mete mete un numero: "); 	// Aquí voy metiendo el numero
+			System.out.print("Mete un numero: "); 	// Aquí voy metiendo el numero
 			n = sc.nextInt();
 
 
@@ -30,11 +30,11 @@ public class intr_num_neg{
 
 		}
 		if (negativos == 0){
-			System.out.println("\n No has metido nungun numero negativo");
+			System.out.println("\nNo has metido ningun numero negativo");
 		}
 		else if (negativos > 0){
 			System.out.println("\nHas metidos numeros negativos!!");
-			System.out.println("\nHas metido la cantidad de "+ negativos + " numeros negativos! :O");
+			System.out.println("\nHas metido la cantidad de "+ negativos +" numeros negativos! :O");
 
 		}
 		//System.out.println("\n¿Has metido algun numero negativo?"  );
