@@ -16,6 +16,7 @@ public class Ecuacion{
 
         System.out.print("Introduce c: ");
         double c = sc.nextDouble();
+        
         double d = (b*b)-(4*a*c);
         double r = Math.sqrt(d);
         

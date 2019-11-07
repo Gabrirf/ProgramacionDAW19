@@ -21,6 +21,6 @@ public class ConversionH{
         System.out.println(h + " Horas en meses es " + m);
         System.out.println(h + " Horas en años es " + a);
         
-
+        sc.close();
     }
 }

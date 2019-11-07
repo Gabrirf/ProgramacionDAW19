@@ -17,6 +17,7 @@ public static void main(String[] args){
 
     System.out.println("El area de la esfera es: " + area );
     System.out.println("El volumen de la esfera es: " + volumen);
-       
+    
+    sc.close();
     }    
 }

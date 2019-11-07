@@ -21,5 +21,6 @@ public class Fecha{
         }else{
             System.out.println("La fecha introducida no es valida");
         }
+        sc.close();
     }
 } 
