@@ -21,5 +21,6 @@ public class Mayordos{
 			System.out.println(num2+ ">" +num1);
 			//PDT: TE queremos Gabri ♥
 		}
+		System.out.println("Hola");
 	}
 }
