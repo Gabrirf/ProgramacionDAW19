@@ -7,7 +7,6 @@ public class DesplazarArray{
         int tam = 10;
         int[] array = {1,2,3,4,5,6,7,0,0,0};
         int[] arraySave = array.clone();
-        int retry = 0;
 
         System.out.print("Introduce el numero que quieras introducir en el array: ");
         arraySave[0] = sc.nextInt();
