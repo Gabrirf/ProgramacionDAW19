@@ -1,0 +1,134 @@
+import java.util.Scanner;
+public class Cambio{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		int quinientosE = 0;
+		int doscientosE = 0;
+		int cienE = 0;
+		int cincuentaE = 0;
+		int veinteE = 0;
+		int diezE = 0;
+		int cincoE = 0;
+		int dosE = 0;
+		int unoE = 0;
+		double cincuentaCT = 0;
+		double veinteCT = 0;
+		double diezCT = 0;
+		double cincoCT = 0;
+		double dosCT = 0;
+		double unoCT = 0;
+		double cambio = 0;
+		double importe = 0;
+		double recibo = 0;
+		System.out.println(  "BIENVENIDO A SUPERMERCADOS LOLI. TU SUPERMECADO DEL DIA A DIA");
+		System.out.println("-------------------------------------------------------------------------");
+		System.out.println(  "Introduzca el importe exacto de la compra:");
+		System.out.println("-------------------------------------------------------------------------");
+		importe = sc.nextInt();
+		System.out.println(  "¿Cuanto ha entregado el cliente?");
+		System.out.println("-------------------------------------------------------------------------");
+		recibo = sc.nextInt();
+		cambio = recibo - importe;
+		if(cambio < 0){
+			System.out.println(  "Falta dinero, el cambio no es posible");
+		}
+		if( cambio == 0){
+			System.out.println(  "El cambio es exacto");
+		}
+		if( cambio > 0){
+			System.out.println(  "Su cambio es de:"   +cambio);	
+		}while(cambio >= 500){
+				quinientosE++;
+				cambio = cambio-500;
+			}if (quinientosE != 0){
+			System.out.println("Te tenemos que dar "+quinientosE+" billetes de 500 euros");
+			}
+		while(cambio  >= 200){
+				doscientosE++;
+				cambio = cambio-200;
+			}if(doscientosE != 0){
+				System.out.println("Te tenemos que dar "+doscientosE+" billetes de 200 euros");
+			}
+		while(cambio >= 100){
+			cienE++;
+			cambio = cambio-100;
+			}if(cienE !=0){
+				System.out.println("Te tenemos que dar "+cienE+" billetes de 100 euros");
+			}
+		while(cambio >= 50){
+			cincuentaE++;
+			cambio = cambio-50;
+			}if(cincuentaE != 0){
+				System.out.println("Te tenemos que dar "+cincuentaE+" billetes de 50 euros");
+			}
+		while(cambio >= 20){
+			veinteE++;
+			cambio = cambio-20;
+			}if(veinteE !=0){
+				System.out.println("Te tenemos que dar "+veinteE+" billetes de 20 euros");
+			}
+		while(cambio >= 10){
+			diezE++;
+			cambio = cambio-10;
+			}if(diezE != cambio){
+				System.out.println("Te tenemos que dar "+diezE+" billetes de 10 euros");
+			}
+		while(cambio >= 50){
+			cincoE++;
+			cambio = cambio-5;
+			}if(cincoE != cambio){
+				System.out.println("Te tenemos que dar "+cincoE+" billetes de 5 euros");
+			}
+		while(cambio >= 2){
+			dosE++;
+			cambio = cambio-2;
+			}if(dosE != cambio){
+				System.out.println("Te tenemos que dar "+dosE+" monedas de 2 euros");
+			}
+		while(cambio >= 1){
+			unoE++;
+			cambio = cambio-1;
+			}if(unoE != cambio){
+				System.out.println("Te tenemos que dar "+unoE+" monedas de 1 euros");
+			}
+		while(cambio >= 0.50){
+			cincuentaCT++;
+			cambio = cambio-0.50;
+			}if(cincuentaCT != cambio){
+				System.out.println("Te tenemos que dar "+cincuentaCT+" monedas de cincuenta centimos");
+			}
+		while(cambio >= 0.20){
+			veinteCT++;
+			cambio = cambio-0.20;
+			}if(veinteCT != cambio){
+				System.out.println("Te tenemos que dar "+veinteCT+" monedas de veinte centimos");
+			}
+		while(cambio >= 0.10){
+			diezCT++;
+			cambio = cambio-0.10;
+			}if(diezCT != cambio){
+				System.out.println("Te tenemos que dar "+diezCT+" monedas de 10 centimos");
+			}
+		while(cambio >= 0.05){
+			cincoCT++;
+			cambio = cambio-0.05;
+			}if(cincoCT != cambio){
+				System.out.println("Te tenemos que dar "+cincoCT+" monedas de 5 centimos");
+			}
+		while(cambio >= 0.02){
+			dosCT++;
+			cambio = cambio-0.02;
+			}if(dosCT != cambio){
+				System.out.println("Te tenemos que dar "+dosCT+" monedas de 2 centimos");
+			}
+		while(cambio >= 0.01){
+			unoCT++;
+			cambio = cambio-0.01;
+			}if(unoCT != cambio){
+				System.out.println("Te tenemos que dar "+unoCT+" monedas de 1 centimo");
+			}
+		System.out.println("GRACIAS POR TU COMPRAR. RECUERDA POR LA COMPRA SUPERIOR DE 800 EUROS TE REGALAMOS UNA CENA EN EL BAR MANOLO.");
+		System.out.println("----------------------------------------------------------------------------------------------------------------");
+	}
+		
+}
