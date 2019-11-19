@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FuncionArraySum",
+            "request": "launch",
+            "mainClass": "FuncionArraySum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Funcion2",
+            "request": "launch",
+            "mainClass": "Funcion2"
+        }
+    ]
+}
