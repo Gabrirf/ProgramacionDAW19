@@ -17,6 +17,7 @@ public class Factorial{
         }
         System.out.println("El resultado es: "+res);
         
+        sc.close();
     }
 
 }
