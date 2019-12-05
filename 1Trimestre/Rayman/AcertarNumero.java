@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
 public class AcertarNumero{
+    /**Este juego consiste en advinar el numero aleatorio que nos produzca la máquina
+     * Por lo que la máquina creará un numero aleatorio y nosotros tendremos 3 intentos
+     * o vidas para acertarlo*/
+    
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
         int aleatorio = (int)(Math.random()*10+1); //Con esto creamos una variables entre uno y 10 para nuestro juego
-        int minumero = 0;
-        int retry = 0;
-        int acertado = 0;
+        int minumero = 0; //Este sera el numero que yo introduzca
+        int retry = 0; //Esto son los intentos
+        int acertado = 0; //Y esta variable la utilizare por si acierto preguntarle si quiere volver a jugar
         System.out.println("Hola bienvenido a la busqueda del numero perdido.");
         System.out.println("Tenemos los numeros del 1 al 10 y hay que encontrar cual es el numero clave");
         System.out.println("Asi que mucha suerte y ten cuidado que solo tienes 3 vidas. :)"); 
