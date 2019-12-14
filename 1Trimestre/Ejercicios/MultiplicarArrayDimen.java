@@ -28,6 +28,7 @@ public class MultiplicarArrayDimen{
         for(int i = 0; i<m; i++){
             System.out.println(Arrays.toString(res[i]));
         }
+        sc.close();
         
     }
 
