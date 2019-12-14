@@ -11,11 +11,10 @@ public class AmigoInvisible{
 
         System.out.println("Las combinaciones que han tocado son las siguientes: ");
         
-        for(int i = 0; i<array.length; i++){
-            if(i+1<=des.length){
-                System.out.println(" --> "+des[i]+" a "+des[i+1]);
-            }
+        for(int i = 0; i<array.length-1; i++){
+            System.out.println(" --> "+des[i]+" a "+des[i+1]); 
         }
+        System.out.println(" --> "+des[7]+" a "+des[0]); 
 
     }
 
