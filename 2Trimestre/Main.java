@@ -2,7 +2,29 @@ import clases.*;
 
 public class Main{
 	public static void main(String[] args) {
-		Persona p1 = new Persona();
+		Agenda agenda = new Agenda();
+		Contacto c1 = new Contacto();
+		Contacto c2 = new Contacto();
+		Contacto c3 = new Contacto();
+
+		c1.nombre = "Lolo";
+		c2.nombre = "Pepa";
+		c3.nombre = "Joselito";
+
+		c1.telefono = "123456789";
+		c2.telefono = "987654321";
+		c3.telefono = "123123123";
+
+		Contacto[] contactos = new Contacto[3];
+		contactos[0] = c1;
+		contactos[1] = c2;
+		contactos[2] = c3;
+
+		agenda.contactos = contactos;
+
+		System.out.println(agenda.contactos[2].nombre);
+
+		/*Persona p1 = new Persona();
 		Persona p2 = new Persona();
 		
 		p1.nombre = "Ana";
@@ -20,17 +42,7 @@ public class Main{
 
 		System.out.println(p1.dniValido());
 		System.out.println(p2.dniValido());
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 		/*// Instanciar objeto
