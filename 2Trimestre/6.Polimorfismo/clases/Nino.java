@@ -1,9 +1,9 @@
 package clases;
 
-public class Anciano extends Persona{
+public class Nino extends Persona{
 
-	public Anciano(){}
-	public Anciano(String nombre){
+	public Nino(){}
+	public Nino(String nombre){
 		super(nombre);
 	}
 
@@ -12,7 +12,12 @@ public class Anciano extends Persona{
 	}
 
 	@Override
+	public void despedir(){
+		System.out.println("adeu");
+	}
+
+	@Override
 	public String toString(){
-		return "Anciano: "+ super.getNombre();
+		return "Nino: "+ super.getNombre();
 	}
 }

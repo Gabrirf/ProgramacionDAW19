@@ -13,6 +13,6 @@ public class Adulto extends Persona{
 
 	@Override
 	public String toString(){
-		return super.toString() + " -> Adulto";
+		return "Adulto: "+ super.getNombre();
 	}
 }

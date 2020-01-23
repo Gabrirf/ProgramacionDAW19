@@ -8,7 +8,11 @@ abstract public class Persona{
 		this.nombre = nombre;
 	}
 
-	abstract void saludar();
+	abstract public void saludar();
+
+	public void despedir(){
+		System.out.println("ADIOS");
+	}
 
 	public String getNombre(){
 		return this.nombre;
