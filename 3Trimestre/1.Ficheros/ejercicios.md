@@ -7,6 +7,8 @@ author: Gabriel Rodríguez Flores
 
 Teoría básica sacada de [aquí](https://jarroba.com/lectura-escritura-ficheros-java-ejemplos/)
 
+Mejora y más concreto en [W3Schools](https://www.w3schools.com/java/java_files.asp)
+
 ## Lectura
 
 Necesitaremos las librerías
@@ -50,8 +52,8 @@ Código:
 FileWriter fichero = null;
 try {
     fichero = new FileWriter("fichero_escritura.txt");
-    for (String linea : lineas) {
-        fichero.write(linea + "\n");
+    for (int i=0; i<10; i+=1) {
+        fichero.write(i + "\n");
     }
     fichero.close();
 } catch (Exception e) {
@@ -60,6 +62,36 @@ try {
 ```
 
 Para un ejemplo sencillo con _BufferedWriter_ vease este [tutorial](https://geekytheory.com/com o-crear-y-modificar-ficheros-con-java)
+
+# Ejemplos
+
+- **Información del objeto `File`**
+
+```java
+File file = new File("filename.txt");
+if (file.exists()) {
+    if(file.isDirectory()){
+        for (String name : file.list()){
+			System.out.println(name);
+        }
+    }else{
+        System.out.println("File name: " + file.getName());
+        System.out.println("Path: " + file.getPath()); 
+        System.out.println("Absolute path: " + file.getAbsolutePath()); 
+        System.out.println("Writeable: " + file.canWrite()); 
+        System.out.println("Readable " + file.canRead()); 
+        System.out.println("File size in bytes " + file.length());
+        System.out.println("Last modified " + file.lastModified());
+
+    }
+} else {
+    System.out.println("The file does not exist. Creating directory ...");
+    System.out.println(file.mkdir());
+}
+//System.out.println(file.delete());
+```
+
+- ****
 
 # Ejercicios
 
@@ -110,4 +142,6 @@ Para un ejemplo sencillo con _BufferedWriter_ vease este [tutorial](https://geek
 
 2. Programa que edite un fichero de texto añadiendole una frase solicitada al usuario.
 
-3. Programa que permita recoger datos de un fichero `.csv` y cargue un array de objetos a partir de él. El programa permitirá añadir nuevos objetos que deberán ser añadidos al fichero para la persistencia de los datos.
+3. Programa que codifique/decodifique un texto en ASCII y guarde en el fichero el texto codificado en numérico. Mostrará por consola el contenido en texto.
+
+4. Programa que permita recoger datos de un fichero `.csv` y cargue un array de objetos a partir de él. El programa permitirá añadir nuevos objetos que deberán ser añadidos al fichero para la persistencia de los datos.
