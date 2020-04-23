@@ -281,3 +281,29 @@
 	- Imprimir el contenido de un album
 
 - GitHub: [Biblioteca de Musica](https://github.com/Angela1395/Bibliotecamusica)
+
+# Jesus
+
+- Titulo: 
+- Descripcion: Gestor de equipos de baloncesto
+
+- Tablas de BBDD:
+	- Jugadores: id, nombre, equipo, posicion, titular
+	- Equipos: nombre, victoria, derrota, empate
+
+- Ficheros: Exportar titulares de un equipo
+
+- GitHub: []()
+
+# Alex
+
+- Titulo: 
+- Descripcion: Almacen de coches y objetos
+
+- Tablas de BBDD:
+	- Coches: id, marca, modelo, precio, cantidad
+	- Objetos: id, nombre, descripcion, precio, cantidad
+
+- Ficheros: Imprimir lista de coches y objetos
+
+- GitHub: []()
