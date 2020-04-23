@@ -87,7 +87,7 @@
 
 - Ficheros: Exportar casetas favoritas
 
-- GitHub: [](https://github.com/espejunco/ProyectoProgramacion.git)
+- GitHub: [Proyecto programacion](https://github.com/espejunco/ProyectoProgramacion.git)
 
 # Juan Jesus (Limon)
 
@@ -115,7 +115,7 @@
 
 - Ficheros: Exportar jugadores de un equipo
 
-- GitHub: [](https://github.com/carlos-ada/ProyectoProgramacion.git)
+- GitHub: [ProyectoProgramacion](https://github.com/carlos-ada/ProyectoProgramacion.git)
 
 # Adri
 
@@ -162,7 +162,7 @@
 
 - Avanzado: Reproducir canciones de un fichero
 
-- GitHub: [](https://github.com/oscarpadilla1907/M-all-DAW-Oscar-Padilla)
+- GitHub: [M-all](https://github.com/oscarpadilla1907/M-all-DAW-Oscar-Padilla)
 
 # Vladi
 
@@ -177,7 +177,7 @@
 
 - Fichero: Exportar/Importar jugador
 
-- GitHub: [](https://github.com/AntonioVladimir/Game)
+- GitHub: [Game](https://github.com/AntonioVladimir/Game)
 
 # Sergio
 
@@ -230,6 +230,54 @@
     - Imprimir factura de compra (Markdown)
     - Recordar inicio sesion
 
-- GitHub: [](https://github.com/Rafael-bot/ProyectoFinal1-GradSup)
+- GitHub: [Proyecto](https://github.com/Rafael-bot/ProyectoFinal1-GradSup)
 
-# 
+# Carlos García
+
+- Titulo: 
+- Descripcion: Aplicacion para gestor de trabajadores
+
+- Tablas de BBDD:
+    - Usuarios: user, password, rol
+    - Empleados: dni, nombre, fechaNacimiento, correo, categoria
+
+- Avanzado: 
+	- Tabla usuario-empleado o campo nuevo dni (FK de Empleados) en user
+
+- Ficheros:
+	- Escritura: Imprimir datos de un empleado
+	- Lectura: Leer contraseña secreta (encriptada ASCII) para crear un admin
+
+- GitHub: []()
+
+# Javier Melendez
+
+- Titulo: 
+- Descripcion: Juego por turnos de DragonBall
+
+- Tablas de BBDD:
+	- Personajes: id, nombre, vida, ataque, defensa
+	- Habilidades: id, nombre, poder, tipo
+	- Personaje-habilidad: idPersonaje, idHabilidad
+
+- Avanzado: Asignar requistos para lanzar habilidades.
+
+- Ficheros: Importar/Exportar BBDD a un .csv
+
+- GitHub: [DragonBallM](https://github.com/titomelen/ProyectoProgramacion)
+
+# Angela
+
+- Titulo: 
+- Descripcion: Biblioteca de música
+
+- Tablas de BBDD:
+	- Canciones: id, nombre, autor, duracion, tipo
+	- Albums: id, nombre, autor
+	- Album-cancion: idCancion, idAlbum
+
+- Ficheros:
+	- Imprimir todas las canciones de un autor
+	- Imprimir el contenido de un album
+
+- GitHub: [Biblioteca de Musica](https://github.com/Angela1395/Bibliotecamusica)
