@@ -212,7 +212,17 @@
 # Jose Antonio
 
 - Titulo:
-- Descripcion: 
+- Descripcion: Tienda de juegos
+
+- Tablas de BBDD:
+    - Juegos: id, titulo, genero, precio, cantidad
+    - Compradores: id, nombre, apellidos
+  	- Ventas: id, idComprador, idJuego, fecha
+
+- Ficheros:
+	- Imprimir factura de una misma fecha
+
+- GitHub: [Proyecto](https://github.com/Josearemos/ProyectoProgramacion)
 
 # Rafa
 
