@@ -2,31 +2,36 @@ import java.util.Scanner;
 
 public class Conversiones{
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		
+		/* Conversion directa (casting) */
+		int numero = (int) '0';
+		char caracter = (char) 48;
 
-		System.out.print("Introduce un caracter: ");
-		String texto = sc.nextLine();
+		System.out.println(caracter +" <-- tienen el mismo valor binario --> "+ numero);
 
-		char caracter = texto.charAt(0);
-		if(caracter >= 48 && caracter <= 57){
-			int n = Integer.parseInt(texto);
-			System.out.println(3+n);
-		}else{
-			System.out.println("No es un numero");
+		int decimal = 10;
+		int binario = 0b1010;
+		int hexadecimal = 0x0A;
+		System.out.println(decimal);
+		System.out.println(binario);
+		System.out.println(hexadecimal);
+
+		/* Conversion mediante métodos */
+		int numeroTexto = Integer.parseInt("10");
+		String textoNumero = Integer.toString(10);
+		String textoNumero2 = 10 + "";
+		System.out.println(numeroTexto +" <-- tienen el mismo valor --> "+ textoNumero);
+
+		/* Extraer caracter de texto */
+		char a;
+		for (int i=0; i<5; i++) {
+			a = "Supercaligrafi...".charAt(i);
+			System.out.print(a + " ");
 		}
-
-		System.out.print("Introduce un numero: ");
-		int n = sc.nextInt();
-		System.out.println(n);
+		System.out.println();
 	}
 }
 
 
 
 
-
-//		char a;
-//		for (int i=0;i<6 ;i++ ) {
-//			a = "Supercaligrafi...".charAt(i);
-//			System.out.println(a);
-//		}

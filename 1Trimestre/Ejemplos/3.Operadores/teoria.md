@@ -3,7 +3,7 @@ title: Operadores en Java
 author: Gabriel Rodríguez Flores
 ---
 
-[Refernecia](https://www.arkaitzgarro.com/java/capitulo-4.html)
+[Referencia](https://www.arkaitzgarro.com/java/capitulo-4.html)
 
 # Asignación
 
