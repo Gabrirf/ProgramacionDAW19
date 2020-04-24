@@ -52,10 +52,10 @@
 - Descripcion: Aplicación para gesitonar un bar
 
 - Tablas de BBDD:
-	- Trabajadores: IdUser, first_name,last_name,date_of_birth,DNI,tlf,registered_day, password, rol
+	- Trabajadores: IdUser(PK), first_name,last_name,date_of_birth,DNI,tlf,registered_day, password, rol
 	- Pedidos: idMesa, idComidas(FK),cantidad,precio
 	- Comidas: idComidas(PK), nombre, cantidadAlmacen,Precio/und
-	- Recibos: IdRecibo(PK), IdMesa,IdUser, NombreCam,Precio,FechaTrans.,FormaPago
+	- Recibos: IdRecibo(PK), IdMesa,IdUser(FK), NombreCam,Precio,FechaTrans.,FormaPago
 	- Caja: IdRecibo(FK), Importe, CajaActual,CajaFinal, FechaTrans.
 
 - Ficheros: Resumen de reposición, factura de cliente.
