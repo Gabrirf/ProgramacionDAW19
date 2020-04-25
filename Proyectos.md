@@ -317,3 +317,21 @@
 - Ficheros: Imprimir lista de coches y objetos
 
 - GitHub: []()
+
+# Marco
+
+- Titulo:
+- Descripcion: Aplicación de gestión de divisas
+
+- Tablas de BBDD:
+	- Divisas: id (ISO 4217), nombre, acronimo, valor
+	- Cliente: id, nombre, apellido, nombrePais, user, password, credito
+	- Pais: nombre, idDivisa, idioma
+
+- Ficheros:
+	- Reporte del estado actual de las divisas respecto a una dada.
+	- Exportar el dinero del cliente en todas las divisas.
+
+- Avanzado: Implementación de idiomas
+
+- []()
