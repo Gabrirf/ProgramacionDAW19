@@ -52,7 +52,7 @@
 - Descripcion: Aplicación para gesitonar un bar
 
 - Tablas de BBDD:
-	- Trabajadores: IdUser(PK), first_name,last_name,date_of_birth,DNI,tlf,registered_day, password, rol
+	- Trabajadores: IdUser(PK), first\_name, last\_name, date\_of\_birth, DNI,tlf, registered_day, password, rol
 	- Pedidos: idMesa, idComidas(FK),cantidad,precio
 	- Comidas: idComidas(PK), nombre, cantidadAlmacen,Precio/und
 	- Recibos: IdRecibo(PK), IdMesa,IdUser(FK), NombreCam,Precio,FechaTrans.,FormaPago
@@ -137,14 +137,14 @@
 # Andrés
 
 - Titulo:
-- Descripcion: Aplicacion para gestioanr un sistema de abonados a Semana Santa
+- Descripcion: Aplicacion para gestionar un sistema de abonados a Semana Santa
 
 - Tablas de BBDD:
 	- Usuarios: id, nombre, usuario
 	- Abonados: idAbonado, nombre, zona, sector
 	- Sector:
 	- Zona:
-	- Abonado-zona-sector: idAbonado, idZona, idSecto444r
+	- Abonado-zona-sector: idAbonado, idZona, idSector
 
 - Ficheros: Imprimir las zonas permitidas para un abonado
 
