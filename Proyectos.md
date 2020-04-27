@@ -64,16 +64,16 @@
 
 # Mario
 
-- Titulo:
+- Titulo: Movies App
 - Descripción: Aplicación para gesionar listas de películas
 - Tecnología: stack MERN
 
 - Tablas de BBDD:
-	- Peliculas:
-	- Usuarios:
+	- Peliculas: id, movie_id, user_id, type
+	- Usuarios: email, username, password, descripcion, imgUrl, date
 	- Listas:
 
-- Ficheros: Para imagenes (?)
+- Ficheros: Posiblemente, para la subida de imagenes de perfil de los usuarios. (Todavía no es seguro)
 
 - GitHub: [MoviesApp](https://github.com/mariobalrod/MoviesApp)
 
