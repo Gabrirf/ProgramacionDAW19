@@ -53,7 +53,7 @@
 
 - Tablas de BBDD:
 	- Trabajadores: IdUser(PK), first\_name, last\_name, date\_of\_birth, DNI,tlf, registered_day, password, rol
-	- Pedidos: idMesa, idComidas(FK),cantidad,precio
+	- Pedidos: idMesa, idComidas(FK),tipo,cantidad,precio
 	- Comidas: idComidas(PK), nombre, cantidadAlmacen,Precio/und
 	- Recibos: IdRecibo(PK), IdMesa,IdUser(FK), NombreCam,Precio,FechaTrans.,FormaPago
 	- Caja: IdRecibo(FK), Importe, CajaActual,CajaFinal, FechaTrans.
