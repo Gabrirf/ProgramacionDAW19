@@ -17,3 +17,5 @@ author: Gabriel Rodríguez Flores
         - Letras entre: Mayúsculas (65 - 90), minúsculas (97 - 122)
 
 4. Indicar si un numero es o no primo
+
+5. Expresión que indica si una fecha es válida o no (meses diferentes)
