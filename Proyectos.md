@@ -180,7 +180,7 @@
 
 - Fichero: Exportar/Importar jugador
 
-- GitHub: [NeoRPG]https://github.com/AntonioVladimir/NeoRPG)
+- GitHub: [NeoRPG](https://github.com/AntonioVladimir/NeoRPG)
 
 # Sergio
 
