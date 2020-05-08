@@ -169,8 +169,8 @@
 
 # Vladi
 
-- Titulo:
-- Descripcion: Juego de rol animado
+- Titulo: NeoRPG
+- Descripcion: Juego de arcade.
 
 - Tablas de BBDD:
 	- Usuarios: id, user, password, nivel, puntuacion
@@ -180,7 +180,7 @@
 
 - Fichero: Exportar/Importar jugador
 
-- GitHub: [Game](https://github.com/AntonioVladimir/Game)
+- GitHub: [NeoRPG]https://github.com/AntonioVladimir/NeoRPG)
 
 # Sergio
 
