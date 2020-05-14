@@ -229,7 +229,7 @@
 
 # Rafa
 
-- Titulo: 
+- Titulo: ProPlay-IT
 - Descripcion: Plataforma de juegos al estilo Steam o EpicGame
 
 - Tablas de BBDD:
@@ -241,9 +241,10 @@
 - Ficheros:
     - Imprimir lista de juegos de un usuario (Markdown)
     - Imprimir factura de compra (Markdown)
-    - Recordar inicio sesion
+    - Recordar Usuario
+    - Recordar Passsword
 
-- GitHub: [Proyecto](https://github.com/Rafael-bot/ProyectoFinal1-GradSup)
+- GitHub: [Proyecto](https://github.com/Rafael-bot/ProPlay-IT)
 
 # Carlos García
 
