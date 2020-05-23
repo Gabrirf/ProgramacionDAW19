@@ -169,18 +169,18 @@
 
 # Vladi
 
-- Titulo: NeoRPG
-- Descripcion: Juego de arcade.
+- Titulo: uCl&p	
+- Descripcion: Agenda de Links.
 
 - Tablas de BBDD:
-	- Usuarios: id, user, password, nivel, puntuacion
-	- Armas: id, nombre, poder
-	- Niveles: numero, idEnemigo, nEnemigos
-	- Enemigos: id, daño, velocidad
+	- Usuarios: id, username, password, fullname
+	- Sessions: session_id, expires, data
+	- Links: id, title, url, description, user_id, create_at
 
-- Fichero: Exportar/Importar jugador
 
-- GitHub: [NeoRPG](https://github.com/AntonioVladimir/NeoRPG)
+- Fichero: Probablemente guarde datos de links tambien en
+
+- GitHub: [uCl&p](https://github.com/AntonioVladimir/uclip)
 
 # Sergio
 
