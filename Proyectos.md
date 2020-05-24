@@ -235,8 +235,8 @@
 - Tablas de BBDD:
     - Usuarios: id, user, password, credito
     - Amigos: idUser1, idUser2
-    - Juegos: id, titulo, descripcion, imagen, precio
-    - ListaJuegos: idJuego, idUsuario, estado
+    - Juegos: id, titulo, descripcion, imagen, precio, Stock
+    - ListaJuegos: idJuego, idUsuario
 
 - Ficheros:
     - Imprimir lista de juegos de un usuario (Markdown)
