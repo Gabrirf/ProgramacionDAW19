@@ -3,13 +3,13 @@ title: Ejercicios de Condicionales
 author: Gabriel Rodríguez Flores
 ---
 
-1. Calcular si un año es o no bisiesto
+1. Pedir numeros por teclado o argumentos y decir si son pares o impares
+    - Usar el operador módulo `%`
+
+2. Calcular si un año es o no bisiesto
     - Un año es bisiesto si es múltiplo de 4
     - Pero no es bisiesto si es múltiplo de 100
     - Si lo es si además es múltiplo de 400
-
-2. Pedir numeros por teclado y decir si son pares o impares
-    - Usar el operador módulo `%`
 
 3. Decir si un caracter introducidos es letra, número u otro.
     - Ver el valor en ASCII

@@ -1,18 +1,24 @@
 public class Funciones{
+
 	public static void main(String[] args) {
-		// llamada a la funcion
-		//int suma = ;
-		//System.out.println(suma);
-		mostrar(sumar(3,7));
+		int a = 3;
+		int b = 7;
+		
+		int suma = sumar(a, b);
+		mostrar(suma);
+		/* Es equivalente */
+		mostrar(sumar(a,b));
 	}
-	// La funcion en sí
+	
+	/* Esta funcion devuelve un número */
 	public static int sumar(int a, int b){
 		int suma = a+b;
-		int otroNumero = 4;
 		return suma;
 	}
 
+	/* Esta funcion no devuelve nada */
 	public static void mostrar(int n){
 		System.out.println("El numero es: "+n);
 	}
+
 }

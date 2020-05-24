@@ -1,7 +1,14 @@
 public class FuncionRecursiva{
 	public static void main(String[] args) {
 		//imprimirNumeroR(1);
-		System.out.println(sumarACero(3));
+		System.out.println(sumarACero(4));
+	}
+
+	public static void imprimirNumeroR(int n){
+		if(n < 10){
+			imprimirNumeroR(n+1);
+		}
+		System.out.println(n);
 	}
 
 	public static int sumarACero(int n){
@@ -12,10 +19,4 @@ public class FuncionRecursiva{
 		return suma;
 	}
 
-	public static void imprimirNumeroR(int n){
-		if(n < 2){
-			imprimirNumeroR(n+1);
-		}
-		System.out.println(n);
-	}
 }
