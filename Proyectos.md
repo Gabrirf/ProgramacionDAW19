@@ -69,9 +69,9 @@
 - Tecnología: stack MERN
 
 - Tablas de BBDD:
-	- Peliculas: id, movie_id, user_id, type
-	- Usuarios: email, username, password, descripcion, imgUrl, date
-	- Listas:
+	- Peliculas: id, movie_id(TheMovieDbApi), user_id, type(nombre-Lista)
+	- Usuarios: id, email, username, password, descripcion, imgUrl, date
+	- Listas: id, nombre, descripcion, user_id
 
 - Ficheros: Posiblemente, para la subida de imagenes de perfil de los usuarios. (Todavía no es seguro)
 
