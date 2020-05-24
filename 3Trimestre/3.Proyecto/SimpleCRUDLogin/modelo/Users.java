@@ -15,6 +15,12 @@ public class Users {
 		return usuarios;
 	}
 	
+	public User getUserByNameAndPass(String username, String password) {
+		ResultSet userBD = conexion.EjecutarSentencia("SELECT * FROM usuarios WHERE USER='"+username+"' AND PASSWORD='"+password+"'");
+		User user = new controlador.Helper().resultSet2Object(userBD);
+		return user;
+	}
+	
 	public boolean checkUserAndPass(String user, String password) {
 		ResultSet usuarioBD = conexion.EjecutarSentencia("SELECT * FROM usuarios WHERE USER='"+user+"' AND PASSWORD='"+password+"'");
 		

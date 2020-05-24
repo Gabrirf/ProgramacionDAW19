@@ -20,13 +20,16 @@ public class Login {
 		new modelo.Users().deleteUser(user);
 	}
 	
-	public void checkUser(String user, String password) {
+	public boolean checkUser(String username, String password) {
 		// Recoger los usuarios
-		boolean check = new modelo.Users().checkUserAndPass(user, password);
-		if(check) {
+		User user = new modelo.Users().getUserByNameAndPass(username, password);
+		if(user != null) {
 			JOptionPane.showMessageDialog(null, "Usuario correcto");
+			new vista.Principal(user);
+			return true;
 		}else { // Sino error
 			JOptionPane.showMessageDialog(null, "Usuario no encontrado");
+			return false;
 		}
 	}
 	

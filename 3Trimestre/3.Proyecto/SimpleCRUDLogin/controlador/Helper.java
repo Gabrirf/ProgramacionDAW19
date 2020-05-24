@@ -27,5 +27,20 @@ public class Helper {
 		
 		return arraylist;
 	}
+	
+	public User resultSet2Object(ResultSet resultado){
+		try {
+			if(resultado.next()) {
+				int id = resultado.getInt("id");
+				String username = resultado.getString("user");
+				String password = resultado.getString("password");
+				User user = new User(id, username, password);
+				return user;
+			}
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null, "Error en la consulta de usuarios");
+		}
+		return null;
+	}
 
 }

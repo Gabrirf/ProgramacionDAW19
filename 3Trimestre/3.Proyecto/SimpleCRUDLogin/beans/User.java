@@ -1,5 +1,7 @@
 package beans;
 
+import java.sql.ResultSet;
+
 public class User {
 	
 	int id;

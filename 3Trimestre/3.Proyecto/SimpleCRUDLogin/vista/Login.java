@@ -76,7 +76,10 @@ public class Login extends JFrame {
 				// Llamar al controlador
 				String user = userInput.getText();
 				String password = passwordInput.getText();
-				new controlador.Login().checkUser(user, password);
+				boolean pass = new controlador.Login().checkUser(user, password);
+				if(pass) {
+					setVisible(false);
+				}
 			}
 		});
 		
