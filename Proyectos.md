@@ -244,7 +244,7 @@
     - Recordar Usuario
     - Recordar Passsword
 
-- GitHub: [Proyecto](https://github.com/Rafael-bot/ProPlay-IT)
+- GitHub: [Proyecto](https://github.com/Rafael-bot/ProPlay-IT-V2.0)
 
 # Carlos García
 
