@@ -180,7 +180,7 @@
 
 - Fichero: Probablemente guarde datos de links tambien en
 
-- GitHub: [uCl&p](https://github.com/AntonioVladimir/uclip)
+- GitHub: [uCl&p](https://github.com/Rafael-bot/ProPlay-IT-V2.0)
 
 # Sergio
 
