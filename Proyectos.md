@@ -339,3 +339,17 @@
 - Avanzado: Implementación de idiomas
 
 - [Proyecto](https://github.com/coti1999/ProyectosProgramacion.git)
+
+
+# Jesús Romero
+
+- Titulo: Blockblaster
+- Descripción: Videoclub de películas
+
+- Tablas de BBDD:
+	- Usuarios: id, name, pass, telefono, saldo
+	- Peliculas: id, titulo, duracion, descripcion, enlace, imagen
+
+- Ficheros: imprimir factura
+
+- [Blockblaster](https://github.com/Jerona93/Blockblaster)
