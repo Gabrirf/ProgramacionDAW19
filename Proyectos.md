@@ -44,7 +44,7 @@
 
 - Avanzado: Sockets
 
-- GitHub: [](https://github.com/Unam29/BuildMaker.git)
+- GitHub: [BuildMaker](https://github.com/Unam29/BuildMaker.git)
 
 # Kike
 
@@ -148,7 +148,7 @@
 
 - Ficheros: Imprimir las zonas permitidas para un abonado
 
-- GitHub: []()
+- GitHub: [Proyecto](https://github.com/masset151/Gestion_de_Abonados)
 
 # Oscar
 
@@ -210,7 +210,7 @@
 
 - Avanzado: Filtrar por deuda mayor que X
 
-- GitHub: [NullMorosos]()
+- GitHub: [NullMorosos](https://github.com/PabloCerero95/NullMorosos)
 
 # Jose Antonio
 
@@ -262,7 +262,7 @@
 	- Escritura: Imprimir datos de un empleado
 	- Lectura: Leer contraseña secreta (encriptada ASCII) para crear un admin
 
-- GitHub: []()
+- GitHub: [GestorEmpleados](https://github.com/bachilon/ProyectoFinal-GestorEmpleados)
 
 # Javier Melendez
 
@@ -307,7 +307,7 @@
 
 - Ficheros: Exportar titulares de un equipo
 
-- GitHub: []()
+- GitHub: [Proyecto](https://github.com/jesus-cm1907/PROGRAMACION)
 
 # Alex
 
