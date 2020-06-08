@@ -1,6 +1,7 @@
 package controlador;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 
@@ -16,6 +17,8 @@ public class Central {
 		Alumno alumnoRecogido = new Alumnos().recogerAlumno(nombre);
 		if(alumnoRecogido != null) {			
 			JOptionPane.showMessageDialog(null, "Hola "+alumnoRecogido.getNombre());
+			/* Llamada a la otra ventana */
+			new vista.VistaAlumno(alumnoRecogido);
 		}else {
 			int opcion = JOptionPane.showConfirmDialog(null, "No se ha encontrado alumno\n ¿Desea guardarlo?");
 			if(opcion == 0) {
@@ -27,4 +30,12 @@ public class Central {
 		}
 		
 	}
+	
+	public void verTodos() {
+		/* Cargar los datos */
+		ArrayList<Alumno> alumnos = new modelo.Alumnos().recogerTodosAlumnos();
+		/* Abrir ventana ver todos */
+		new vista.Tabla(alumnos);
+	}
+	
 }

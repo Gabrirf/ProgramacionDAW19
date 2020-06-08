@@ -16,6 +16,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Principal extends JFrame {
 
@@ -47,6 +51,10 @@ public class Principal extends JFrame {
 		labelNombre.setBounds(107, 83, 79, 14);
 		panel.add(labelNombre);
 		
+		JButton btnTodos = new JButton("Ver todos");
+		btnTodos.setBounds(325, 217, 89, 23);
+		panel.add(btnTodos);
+		
 		
 		/* Acciones */
 		
@@ -54,6 +62,12 @@ public class Principal extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String nombre = inputNombre.getText();
 				new Central().saludar(nombre);
+			}
+		});
+		
+		btnTodos.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Central().verTodos();
 			}
 		});
 	}
