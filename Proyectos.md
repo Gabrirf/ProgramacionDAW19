@@ -83,14 +83,13 @@
 - Descripción: Visor de casetas de la feria
 
 - Tablas de BBDD:
-	- Casetas: id, nombre, calle, aforoAct, aforoTot, estado, propiedad
+	- Casetas: id, nombre, calle, aforo, estado, propiedad
 	- Usuarios: id, nombre
-	- Opiniones: id, idUser, idCaseta, comentario, estrellas
-	- Usuario-caseta: idUser, idCaseta
+	- Opiniones: id, idUser, idCaseta, comentario
 
 - Ficheros: Exportar casetas favoritas
 
-- GitHub: [Proyecto programacion](https://github.com/espejunco/ProyectoProgramacion.git)
+- GitHub: [Proyecto programacion](https://github.com/espejunco/FeriaApp)
 
 # Juan Jesus (Limon)
 
