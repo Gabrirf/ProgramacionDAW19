@@ -79,7 +79,7 @@
 
 # Espe
 
-- Título:
+- Título: Ferial
 - Descripción: Visor de casetas de la feria
 
 - Tablas de BBDD:
@@ -89,7 +89,7 @@
 
 - Ficheros: Exportar casetas favoritas
 
-- GitHub: [Proyecto programacion](https://github.com/espejunco/FeriaApp)
+- GitHub: [Proyecto programacion](https://github.com/espejunco/FeriaProyecto)
 
 # Juan Jesus (Limon)
 
