@@ -1,0 +1,14 @@
+nombre;edad;altura;peso
+antonio;32;180;87;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;1650;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+laura;23;165;60;
+juanito;12;130;32;
